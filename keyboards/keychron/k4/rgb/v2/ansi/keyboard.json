@@ -50,7 +50,7 @@
                 {"matrix":[0, 16], "x":16, "y":0},
                 {"matrix":[0, 17], "x":17, "y":0},
                 {"matrix":[0, 18], "x":18, "y":0},
-                
+
                 {"matrix":[1, 0], "x":0, "y":1},
                 {"matrix":[1, 1], "x":1, "y":1},
                 {"matrix":[1, 2], "x":2, "y":1},
@@ -69,7 +69,7 @@
                 {"matrix":[1, 16], "x":16, "y":1},
                 {"matrix":[1, 17], "x":17, "y":1},
                 {"matrix":[1, 18], "x":18, "y":1},
-                
+
                 {"matrix":[2, 0], "x":0, "y":2, "w":1.5},
                 {"matrix":[2, 1], "x":1.5, "y":2},
                 {"matrix":[2, 2], "x":2.5, "y":2},
@@ -134,7 +134,7 @@
                 {"matrix":[5, 16], "x":16, "y":5},
                 {"matrix":[5, 17], "x":17, "y":5}
                 ]
-            } 
+            }
         },
 
     "rgb_matrix": {
@@ -244,7 +244,7 @@
             "react_on_keyup": true,
             "sleep": true,
 
-        "animations": { 
+        "animations": {
             "gradient_left_right": true,
             "breathing": true,
             "band_sat": true,
@@ -253,18 +253,18 @@
             "cycle_left_right": true,
             "dual_beacon": true,
             "rainbow_beacon": true,
-            "raindrops": true,
+            "raindrops": false,
             "hue_breathing": true,
             "hue_wave": true,
             "typing_heatmap": true,
-            "digital_rain": true,
             "solid_reactive_simple": true,
             "solid_reactive": true,
-            "splash": true,
-            "multisplash": true,
-            "solid_splash": true,
-            "solid_multisplash": true,
-            "pixel_rain": true
+            "digital_rain": false,
+            "splash": false,
+            "multisplash": false,
+            "solid_splash": false,
+            "solid_multisplash": false,
+            "pixel_rain": false
             }
     }
 
